@@ -29,13 +29,97 @@
 
 </head>
 
-<!-- https://www.youtube.com/watch?v=jOA6ROBXdRE -->
-<!-- min 14:18 -->
+<!-- * https://www.youtube.com/watch?v=jOA6ROBXdRE -->
+<!-- min 39:18 -->
 
-<body>
+<body class="active">
     
+    <!--  
+        * #PRELOADING
+    -->
+    <div class="loading" data-loading>
+        <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img">
+        <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+    </div>
 
-    <section>valiendo versh desde tempranito</section>
+    <!--  
+        * #HEADER
+    -->
+    <header class="header active" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="40" height="40" alt="Rosas Eterna">
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+            </button>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/nav-logo.svg" width="140" height="40" alt="Rosas Eterna" class="img">
+                    </a>
+                    
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <span class="span one"></span>
+                        <span class="span two"></span>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#gallery" class="navbar-link" data-nav-link>Galeria</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>Nosotros</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#services" class="navbar-link" data-nav-link>Servicios</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#gallery" class="navbar-link" data-nav-link>Portafolio</a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contacto</a>
+                    </li>
+
+                </ul>
+
+                <button class="login-btn">
+                    <img src="./assets/images/user.svg" width="21" height="21" alt="user icon">
+                    <span class="span">Login</span>
+                </button>
+
+                <p class="navbar-title">Mi Dirección</p>
+
+                <address class="navbar-text">
+                    Calle 20 # 27 - 93 Las Cuadras - Pasto.
+                </address>
+
+                <p class="navbar-text">
+                    ¿Necesitas un regalo? Llamanos al
+                    <a href="tel:3233451129" class="contact-link">323-345-11-29</a>
+                </p>
+
+            </nav>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+    
 
 
 
