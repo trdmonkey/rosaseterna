@@ -1,10 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
+/* TODO: copyright 2024 trdmonkey */
 
-/*
-  TODO: copyright 2024 trdmonkey
-*/
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -135,7 +130,6 @@ body {
   font-weight: var(--fw-400);
   line-height: 2.15;
   overflow-x: hidden;
-  height: 300vh;
 }
 
 body.active { overflow: hidden; }
@@ -162,9 +156,36 @@ body.active { overflow: hidden; }
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-.container {
-  padding-inline: 15px;
+.container { padding-inline: 15px; }
+
+.shape { display: none; }
+
+.section { padding-block: var(--section-padding); }
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--ff-recoleta);
+  line-height: 1.2;
 }
+
+.h1 {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-400);
+}
+
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 { font-weight: var(--fw-300); }
+
+.h2 { font-size: var(--fs-2); }
+
+.h3 { font-size: var(--fs-3); }
 
 
 
